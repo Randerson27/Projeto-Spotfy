@@ -2,6 +2,7 @@
 ---------------------------------------------------------*/
 body,html, #home{
     height: 100%;
+    overflow-x:hidden;
 }
 
 
@@ -76,18 +77,76 @@ nav.navbar-transparente{
 
 /* Estrutura de conteudos
 ---------------------------------------------------------*/
-#servicos {
-    background: white;
+
+.caixa{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+    
 }
 
 #servicos h2,h3{
     color:#7c25f8;
 }
 
+#recursos {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos p {
+    color: white;
+}
+
+#recursos h3{
+    color:#9bf0e1;
+}
+
+#recursos h2{
+    color:white;
+}
+
 .albuns {
     padding: 10px 0 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);/*IE 9*/
+    -webkit-transform: rotate(30deg);/*Chrome, Safari, Opera*/
+    padding-left: 80px;
+}
+
+/* Rodapé
+--------------------------------------------------------*/
+footer {
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color:#919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
 }
 
 /* Tipografia
